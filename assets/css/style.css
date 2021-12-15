@@ -10,9 +10,9 @@ body {
   background: url(../images/header-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  min-height: 100vh; */
+  min-height: 100vh;
 }
 
 .navbar {
@@ -56,4 +56,13 @@ body {
     object-fit: cover;
     object-position: bottom;
 }
+.webfooter {
+    height: 3rem;
+    background: linear-gradient(145deg, #202126e2, #27282d);
+    color: white;
+    margin-top: auto;
+    text-align: center;
+    padding: 7px;
+    border-top: 3px solid rgb(26, 214, 180);
+  }
 
